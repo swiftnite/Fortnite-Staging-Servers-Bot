@@ -13,7 +13,7 @@ A Fortnite staging servers bot that posts to twitter as soon as a new version is
     <sub><sup>Image via <a href="https://medium.com/@omoshalewa/why-you-should-add-python-to-path-and-how-58693c17c443">medium.com</a></sub></sup>
  </p>
  
-- Twitter Developer Account ([Need help getting started?](https://user-images.githubusercontent.com/74127135/212613649-91012cd1-c02c-418a-a8e8-695ab4aeced0.mp4))
+- Twitter Developer Account ([Need help getting started?]https://user-images.githubusercontent.com/74127135/212822054-c886df92-72bf-4749-8011-1f8e4f67a4ac.mp4))
 
 ## Getting Started
 - [Download](https://github.com/swiftnite/Fortnite-Staging-Servers-Bot/archive/refs/heads/main.zip) and extract the Bot.
