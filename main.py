@@ -16,19 +16,25 @@ import json
 from time import sleep
 from config import keys, customisation
 
-consumer_key = keys.consumer_key
-consumer_secret_key = keys.consumer_secret_key
-access_token = keys.access_token
-access_token_secret = keys.access_token_secret
+consumerKey = keys.consumerKey
+consumerSecretKey = keys.consumerSecretKey
+accessToken = keys.accessToken
+accessTokenSecret = keys.accessTokenSecret
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth)
-
-if not all((consumer_key, consumer_secret_key, access_token,access_token_secret)):
+if not all((consumerKey, consumerSecretKey, accessToken, accessTokenSecret)):
     print('WARNING!!!\nYou have not entered your Twitter Api keys into the config.py file!\nThis bot CANNOT run unless you enter these keys!!')
     sleep(10)
     exit()
+
+auth = tweepy.OAuthHandler(consumerKey, consumerSecretKey)
+auth.set_access_token(accessToken, accessTokenSecret)
+api = tweepy.API(auth)
+
+client = tweepy.Client(consumer_key=consumerKey,
+        consumer_secret=consumerSecretKey,
+        access_token=accessToken,
+        access_token_secret=accessTokenSecret)
+
 try:
     account = api.verify_credentials(skip_status=True,include_email=False)
     hi = json.dumps(account._json)
@@ -57,7 +63,7 @@ def main():
             text = f"V{stage} {Body}{Footer}"
 
             print(f"\n{text}\n")
-            api.update_status(text)
+            client.create_tweet(text = text)
 
             print('Posted Staging Servers Update!')
 
