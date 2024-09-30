@@ -14,18 +14,27 @@ Navigate to keys and tokens again and generate Access token and secret, fill the
 
 Your app's permissions MUST have Read + Write or else it will not post!!
 '''
-class keys:
+class Twitter:
+    tweetEnabled = True # True (will post)/ False (will not post)
+
     consumerKey = ""
     consumerSecretKey = ""
     accessToken = ""
     accessTokenSecret = ""
+
 '''
 The below section is for the customisation of the tweet itself
 '''
-class customisation:
-    Body: str = "was added to the staging servers!" #NOTE: This is what appears after the version that was added to staging servers in the tweet
+class Customisation:
+    Body: str = "was added to the staging servers!" #NOTE: This is what appears after the version that was added to staging servers in the tweet (space will always be before what you write here)
     Footer: str = "#Fortnite" #NOTE: This is what will appear under the body! Leave blank("") if you do not want a footer
+
 '''
-If you require assistance or have suggestions you can join the Discord support server!
+If you require assistance or have suggestions you can join the Discord support server:
 https://discord.gg/jHsAW2FKnj
+
+Alternatively you can message me on twitter: @SwiftNite (may take longer to respond)
+
+If you would like to support me please use code Swift-Nite in the shop!
+To further support me you can donate through https://buymeacoffee.com/swiftnite or https://github.com/sponsors/swiftnite
 '''
