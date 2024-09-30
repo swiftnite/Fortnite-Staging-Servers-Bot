@@ -41,9 +41,9 @@ If you require assistance or have suggestions you can:
 - [Message me on Twitter](https://twitter.com/intent/follow?screen_name=SwiftNite)
 
 ## Support Project
-If you enjoy my shop sections bot then you can follow me on [Twitter](https://twitter.com/intent/follow?screen_name=SwiftNite)!
+If you enjoy my staging servers bot then you can follow me on [Twitter](https://twitter.com/intent/follow?screen_name=SwiftNite)!
 
-If you would like to further support me and the shop sections bot then consider donating through buy me a coffee below!
+If you would like to further support me and the staging servers bot then consider donating through buy me a coffee below!
 
 <p align="center">
     <a href="https://www.buymeacoffee.com/Swiftnite"><img width="300" alt="bmc-button" src="https://user-images.githubusercontent.com/74127135/233548032-c051ea07-9f03-43e3-a4d1-bfaced2e41db.png"></a>
